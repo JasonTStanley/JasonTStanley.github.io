@@ -47,7 +47,7 @@ function setColorHoverListener() {
 
 function setRandomPhoto() {
 	let num = Math.floor(Math.random() * 14) + 1;
-	document.getElementById("propic").src = `assets/StanleySquare.png`;
+	document.getElementById("propic").src = `assets/StanleySquare.jpg`;
 }
 
 /* Bio Toggles */
