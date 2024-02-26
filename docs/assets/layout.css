@@ -315,6 +315,13 @@ br {
     margin: 5px 0; 
 }
 
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
