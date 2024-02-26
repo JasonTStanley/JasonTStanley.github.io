@@ -53,6 +53,7 @@ function setRandomPhoto() {
 /* Bio Toggles */
 
 function setBioEventListener() {
+	console.log(Array.from(document.getElementsByTagName("button")));
 	Array.from(document.getElementsByTagName("button")).forEach((e) => {
 		e.addEventListener("click", bioToggle);
 	});
